@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Ilze Nortje</title><link rel="stylesheet" href="css/style.css"><script src="js/script.js" defer></script>
+</head>
+<body>
+<header class="site-header"><a class="brand" href="index.html"><span>~/</span>ilze</a><button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button><nav class="navigation"><a href="index.html">./home</a><a href="about.html">./about</a><a href="projects.html">./projects</a><a class="active" href="contact.html">./contact</a></nav></header>
+<main class="container page-content">
+  <p class="eyebrow">03 / CONTACT</p><h1 class="page-title">Let’s talk<span>.</span></h1>
+  <div class="contact-grid">
+    <section class="panel"><h2>Get in touch</h2><p>If you would like to discuss a project, ask a question, or connect, you can use the form.</p><p class="muted">The form opens your default email app. Add your email address in the JavaScript file before publishing.</p><div class="contact-detail"><span class="detail-icon">@</span><div><strong>Email</strong><p>Replace with your email address</p></div></div><div class="contact-detail"><span class="detail-icon">⌘</span><div><strong>Location</strong><p>Gqeberha, South Africa</p></div></div></section>
+    <form class="panel contact-form" id="contactForm">
+      <label for="name">Your name</label><input id="name" name="name" type="text" placeholder="Enter your name" required>
+      <label for="email">Your email</label><input id="email" name="email" type="email" placeholder="you@example.com" required>
+      <label for="subject">Subject</label><input id="subject" name="subject" type="text" placeholder="What is this about?" required>
+      <label for="message">Message</label><textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+      <button class="button button-primary" type="submit">send_message() ↗</button><p class="form-message" id="formMessage" role="status"></p>
+    </form>
+  </div>
+</main>
+<footer class="site-footer"><span>© <span class="year"></span> Ilze Nortje</span><span>Thanks for stopping by.</span></footer>
+</body></html>
