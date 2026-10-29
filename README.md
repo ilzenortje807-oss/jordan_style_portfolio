@@ -12,6 +12,10 @@ jordan_style_portfolio/
 ├── contact.html
 ├── css/
 │   └── style.css
+├── images/
+│   ├── explore-south-africa.png
+│   ├── explore-sa-events.png
+│   └── swiftmart-online-shop.png
 ├── js/
 │   └── script.js
 └── README.md
@@ -28,7 +32,8 @@ jordan_style_portfolio/
 
 - Change the name, biography, skills, and project descriptions to match your own details.
 - In `js/script.js`, replace `your-email@example.com` with your real email address. The contact form uses the visitor's default email app; it does not send messages directly from a server.
-- Project photos are loaded from Unsplash, so an internet connection is needed to display them.
+- Project screenshots are stored locally in `images/`.
+- Open the live project links on the Projects page with an internet connection.
 - Add your own project links when you have them.
 
 ## Technologies
